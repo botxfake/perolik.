@@ -1,0 +1,41 @@
+{
+  "name": "AxGay",
+  "version": "0.9.0",
+  "description": "Discord music bot",
+  "main": "index.js",
+  "author": "BOT Fake",
+  "private": true,
+  "homepage": "",
+  "repository": "",
+  "bugs": "",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "array-move": "^3.0.1",
+    "common-tags": "^1.8.0",
+    "cpu-stat": "^2.0.1",
+    "dateformat": "^4.4.1",
+    "discord.js": "^12.5.1",
+    "discord.js-commando": "^0.10.0",
+    "erit-ytdl": "^0.1.2",
+    "ffmpeg-static": "^4.2.3",
+    "got": "^11.8.1",
+    "lyrics-finder": "^21.0.5",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.3",
+    "node-fetch": "^2.6.1",
+    "parse-ms": "^2.1.0",
+    "quick.db": "^7.1.3",
+    "random-puppy": "^1.1.0",
+    "simple-youtube-api": "^5.1.1",
+    "soundcloud-downloader": "^0.2.1",
+    "string-progressbar": "^1.0.1",
+    "ytdl-core": "^4.1.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
