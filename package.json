@@ -1,15 +1,15 @@
 {
-  "name": "AxGay",
+  "name": "Perolik",
   "version": "0.9.0",
   "description": "Discord music bot",
   "main": "index.js",
-  "author": "BOT Fake",
-  "private": true,
-  "homepage": "",
-  "repository": "",
-  "bugs": "",
-  "engines": {
-    "node": ">=12.0.0"
+  "author": "Vspr",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url":"git+https://github.com/botxfake/perolik.git"
   },
   "dependencies": {
     "@discordjs/opus": "^0.3.3",
@@ -35,7 +35,4 @@
     "string-progressbar": "^1.0.1",
     "ytdl-core": "^4.1.2"
   },
-  "scripts": {
-    "start": "node index.js"
-  }
 }
